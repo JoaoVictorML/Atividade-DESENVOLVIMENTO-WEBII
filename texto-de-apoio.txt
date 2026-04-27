@@ -1,0 +1,60 @@
+Primary (Principal): #6366F1 (Indigo Moderno)
+
+Secondary (Ação): #10B981 (Verde Esmeralda)
+
+Accent (Destaque): #F59E0B (Âmbar)
+
+Neutral (Fundo/Texto): #0F172A (Azul Escuro Quase Preto)
+
+Surface (Cards/Seções): #F8FAFC (Cinza Azulado muito claro)
+
+
+Introdução ao lado do servidor (back-end)
+
+
+No último semestre você aprendeu a criar um site com páginas estáticas.
+
+
+Nesta atividade, você irá iniciar, criar e implantar o seu primeiro site com páginas dinâmicas. Siga, portanto, os comandos a seguir:
+
+
+Preparação do ambiente
+
+Instale o Python no seu Micro.
+
+Instale o Flask.
+
+Instale o GitHubDesktop
+
+
+Aplicação web Python com Flask com as seguintes rotas:
+
+/index - Formulário Inicial
+
+Retornar uma pagina com um Menu ( Usuários, Produtos, Fornecedores e Venda
+
+/usuarios - deve retorna uma pagina com um fomulário para usuários com email e senha.
+
+/produtos - deve retorna uma pagina com um fomulário para  Produtos com os campos, codigo, descrição e preço.
+
+Envio para o Github.
+
+git status
+
+git diff
+
+git commit -m “Realiza alteração”
+
+git log
+
+git push
+
+ 
+
+Critérios de correção:
+
+Preparação do Ambiente (2 pontos)
+
+Criação do Servidor Web com as rotas solicitadas (6 pontos)
+
+Enviar os arquivos para o Github (2 pontos)

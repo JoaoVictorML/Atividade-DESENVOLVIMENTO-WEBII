@@ -1,0 +1,121 @@
+:root {
+    --primary: #6366F1;    /* Índigo moderno */
+    --secondary: #10B981;  /* Verde esmeralda */
+    --accent: #F59E0B;     /* Âmbar para detalhes/avisos */
+    --bg-dark: #0F172A;    /* Azul marinho profundo para o Nav */
+    --bg-light: #F8FAFC;   /* Fundo das páginas */
+    --surface: #FFFFFF;    /* Fundo do formulário */
+    --text-main: #1E293B;  /* Texto principal */
+    --text-muted: #64748B; /* Texto secundário/legendas */
+}
+
+/* Configurações Gerais */
+body {
+    font-family: 'Inter', 'Segoe UI', Tahoma, sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-main);
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu de Navegação */
+nav {
+    background-color: var(--bg-dark);
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: var(--primary);
+}
+
+/* Estilização dos Formulários (Container) */
+.container {
+    max-width: 450px;
+    margin: 60px auto;
+    background: var(--surface);
+    padding: 30px;
+    border-radius: 12px;
+    /* Sombras suaves e modernas */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 
+                0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+}
+
+h2 {
+    text-align: center;
+    color: var(--text-main);
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+p {
+    color: var(--text-muted);
+}
+
+/* Formulário e Inputs */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--text-main);
+}
+
+input {
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background-color: #fcfcfd;
+    transition: border-color 0.2s;
+}
+
+input:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+/* Botão Principal */
+button {
+    margin-top: 25px;
+    padding: 12px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: transform 0.1s, background-color 0.2s;
+}
+
+button:hover {
+    background-color: #4f46e5; /* Um tom um pouco mais escuro que o primary */
+    transform: translateY(-1px);
+}
+
+button:active {
+    transform: translateY(0);
+}
